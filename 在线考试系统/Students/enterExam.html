@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>在线考试系统学生端</title>
+<link rel="stylesheet" type="text/css" href="../css/enterExam.css">
+</head>
+<body>
+    <div class="nav"> 
+      <div class="header"><img src="../images/logo.jpg"><span class="title">在线考试系统学生端</span></div> 
+    </div>
+    <div class="main_box">
+        <div class="head">
+          <div class="headBox">
+            <div class="logo">
+                <marquee direction="left" scrollamount="5">
+                <p class="tit">亲爱的同学您好：欢迎登录在线考试管理系统！</p>
+                </marquee>
+            </div>
+          </div>
+          <ul class="header_nav">
+            <li><a href="Student.html">首页</a></li>
+            <li><a href="enterExam.html">参加考试</a></li>
+            <li><a href="gradeSearch.html">查看成绩</a> </li>
+            <li><a href="changepsw.html">修改个人信息</a> </li>
+            <li><a href="../index.html">退出系统</a> </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="content">
+              <div class="title2">试卷列表</div>
+              <div class="search">
+                请输入试卷编号开始考试:<input type="text" name="" placeholder="请输入试卷编号或名称">
+                <a href="#"><button>开始考试</button></a> 
+                <a href="Student.html"><button>返回首页</button></a> 
+              </div>
+            <table class="table" border="3" width="900" bgcolor="#f2f2f2" cellspacing="0">
+              <tr bgcolor="#d8b4ec">
+                <th>序号</th>
+                <th>考试科目</th>
+                <th>考试时间</th>
+                <th>考试时长</th>
+              </tr>
+              <tbody align="center" valign="center">
+              <tr>
+                <td>1</td>
+                <td>C语言</td>
+                <td>2019-07-11</td>
+                <td>100分钟</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>离散数学</td>
+                <td>2019-06-22</td>
+                <td>100分钟</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>大学生英语水平测试</td>
+                <td>2019-07-05</td>
+                <td>120分钟</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>体育理论考试</td>
+                <td>2019-06-25</td>
+                <td>60分钟</td>
+              </tr>
+             </tbody>
+            </table> 
+            <div class="menu">
+              <a href="#"><button>首页</button></a> 
+              <a href="#"><button>下一页</button></a> 
+              <a href="#"><button>上一页</button></a> 
+              <a href="#"><button>尾页</button></a> 
+            </div>
+          </div> 
+        </div>      
+    </div>
+
+    <div class="footer">
+      <div>
+        <p>制作</p>
+        <p>版权</p>
+      </div>
+    </div>
+</body>
+</html>

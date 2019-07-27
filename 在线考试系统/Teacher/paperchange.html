@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>题库管理</title>
+	<link rel="stylesheet" type="text/css" href="../css/paperChange.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="header"><img src="../images/logo.jpg"><span class="title">在线考试系统教师端</span></div>
+	</div>
+	<div class="main_box">
+		<div class="head">
+			<div class="headBox">
+				<div class="logo">
+					<marquee direction="left" scrollamount="5"><p class="tit">尊敬的老师，您好：欢迎登录在线考试管理系统！</p></marquee>
+				</div>
+			</div>
+			<ul class="header_nav">
+				<li><a href="Teacher.html">首页</a></li>
+				<li class="current"><span class="nav_left"></span><a href="degree.html">成绩管理</a><span class="nav_right"></span></li>
+				<li><a href="studentsInfo.html">学生信息管理</a> </li>
+				<li><a href="paperChange.html">题库管理</a> </li>
+				<li><a href="papers.html">试卷管理</a> </li>
+				<li><a href="changepsw.html">修改密码</a> </li>
+				<li><a href="../index.html">退出系统</a> </li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="rightPage" >
+				<div class="menu-nav">
+						<a href="#add"><span class="sp">添加试题</span> </a> 
+						<a href="#del"><span class="sp">删除试题</span></a>  
+						<a href="#change"><span class="sp">更改试题</span> </a> 
+			    </div>
+				<div class="tit" name="add">添加试题</div>
+			   <form name="" method="" action="">
+					<!-- 多选题 -->
+					<table>
+						<caption>多选题</caption>
+						<tr>
+							<td>序号:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>题目:</td>
+							<td><textarea name="" placeholder="请在此输入文本" rows="10" cols="21"></textarea></td>
+						</tr>
+						<tr>
+							<td>选项A:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>选项B:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>选项C:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>选项D:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>答案1:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>答案2:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+					</table>
+				
+					<!-- 单选题 -->
+					<table>
+						<caption>单选题</caption>
+						<tr>
+							<td>序号:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>题目:</td>
+							<td><textarea name="" placeholder="请在此输入文本" rows="10" cols="21"></textarea></td>
+						</tr>
+						<tr>
+							<td>选项A:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>选项B:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>选项C:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>选项D:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>答案1:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+					</table>
+					
+					<!-- 填空题 -->
+					<table>
+						<caption>填空题</caption>
+						<tr>
+							<td>序号:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>题目:</td>
+							<td><textarea name="" placeholder="请在此输入文本" rows="10" cols="21"></textarea></td>
+						</tr>
+						<tr>
+							<td>答案:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+					</table>
+				
+					<!-- 判断题 -->
+					<table>
+						<caption>判断题</caption>
+						<tr>
+							<td>序号:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr>
+							<td>题目:</td>
+							<td><textarea name="" placeholder="请在此输入文本" rows="10" cols="21"></textarea></td>
+						</tr>
+						<tr>
+							<td>答案:</td>
+							<td><input type="text" name="" value=""></td>
+						</tr>
+						<tr align="center" valign="center">
+							<td colspan="2">
+								<input type="submit" name="" value="提交">
+								<input type="button" name="" value="返回">
+							</td>
+						</tr>
+					</table>
+				</form>
+				<div class="del">
+					<div class="tit"><a href="" name="del"> 删除试题</a></div>
+					<div class="search">
+						序号:<input type="text" name="">
+						试卷名称:<input type="text" name="">
+						<button>删除</button>
+					</div>
+				</div>
+				<div>
+					<div class="tit"><a href="" name="change">更改试题</a> </div>
+				    <div class="search">
+						序号:<input type="text" name="">
+						试卷名称:<input type="text" name="">
+						<button>更改</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+			<div>
+			<p>制作</p> 
+			
+			<p>版权</p>
+			</div>
+	</div>
+</body>
+</html>

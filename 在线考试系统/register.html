@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+	<div class="nav">
+			<div class="head"><img src="images/logo.jpg"><span class="title">在线考试系统</span></div>
+		</div>
+	<div class="main_box">
+		<div class="head">
+			<h1 align="center">注册信息</h1>
+			<hr color="#336699"/>
+		</div>
+
+		<div class="container">
+				<form name="" method="" action="">
+				<table class="table">
+					<tr>
+				        <td align="right">您的身份:</td>
+				        <td align="left"><input name="id" type="radio" value="radiobutton" checked>
+				            学生
+				            <input name="id" type="radio" value="radiobutton">
+				            教师 
+				            <input name="id" type="radio" value="radiobutton">
+				            管理员 
+			        </tr>
+					<tr>
+						<td align="right">学号/账号:</td>
+						<td align="left"><input type="text" name="" value="" size="25" placeholder="请输入学号/账号"></td>
+					</tr>
+					<tr>
+						<td align="right">姓名:</td>
+						<td align="left"><input type="text" name="" value="" size="25" placeholder="请输入姓名"></td>
+					</tr>
+					<tr>
+						<td align="right">学院:</td>
+						<td align="left">
+							<select name="" class="form-control"> 
+							<option value="select">--请选择--</option>
+								<option value="cm">传媒科学学院</option>
+								<option value="xk">信息科学与技术学院</option>
+								<option value="hx">化学学院</option>
+								<option value="hj">环境学院</option>
+								<option value="jy">教育学部</option>
+								<option value="ls">历史文化学院</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">专业:</td>
+						<td align="left">
+							<select name=""> 
+							<option value="select">--请选择--</option>
+								<option value="rj">软件工程</option>
+								<option value="jj">教育技术专业</option>
+								<option value="sk">生物科学</option>
+								<option value="xl">心理学</option>
+								<option value="hyy">汉语言文学</option>
+								<option value="ls">历史</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+				        <td align="right">性别:</td>
+				        <td align="left"><input name="radiobutton" type="radio" value="radiobutton" checked>
+				            男
+				            <input name="radiobutton" type="radio" value="radiobutton">
+				            女 
+			        </tr>
+					<tr>
+						<td align="right">设置密码:</td>
+						<td align="left"><input type="password" name="psd" size="25" placeholder="请输入密码"  /></td>
+					</tr>
+					<tr>
+						<td align="right">确认密码:</td>
+						<td align="left"><input type="password" name="psd_confirm" size="25" placeholder="请确认密码" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<input type="submit" name="submit" value="注册" id="click" />
+							<input type="reset" name="reset" value="重置"/>
+							<a href="index.html"><input type="button" name="button" value="返回"/></a>
+						</td>
+					</tr>
+				</table>
+				</form>
+		</div>
+	</div>
+	<div class="footer">
+			<div>
+			<p>制作</p> 
+			<p>版权</p>
+			</div>
+	</div>
+	<script type="text/javascript">
+		window.onload = function(){
+			// 获取文本框和提示框
+			var click = document.getElementById("click");
+			click.onclick = function(){
+				alert("注册成功");
+			}
+		}
+	</script>
+</body>
+</html>
